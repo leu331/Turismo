@@ -1,0 +1,41 @@
+#root {
+    font-family: "Open Sans", sans-serif; 
+    font-size: 16px;
+
+}
+
+body {
+    background-color: #29292E;
+    background-size: cover;
+}
+
+/*body (alteraria toda a página, preciso alterar pelo page e dar um background para o body depois*/
+ #page {
+    background-color: #F5F4F0;
+    width: 1120px;
+    padding: 88px;
+    margin: auto;
+
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif; 
+    font-style: bold;
+    font-size: 32px;
+    color: #1b1b1b;
+}
+
+img {
+    border-radius: 28px;
+}
+
+section#pre {
+    font-size: 16px;
+    color:#E1624F;
+    font-weight: bold;
+}
+
+section#subtitle {
+    font-style: italic;
+    text-align: center;
+}
