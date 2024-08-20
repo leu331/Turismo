@@ -1,6 +1,13 @@
-#root {
+* { /* parâmetro raíz para mexer com todo o projeto */
+    margin: 0;
+    padding: 0;
+}
+
+:root {
     font-family: "Open Sans", sans-serif; 
     font-size: 16px;
+    color: #1b1b1b;
+    text-align: left;
 
 }
 
@@ -9,7 +16,6 @@ body {
     background-size: cover;
 }
 
-/*body (alteraria toda a página, preciso alterar pelo page e dar um background para o body depois*/
  #page {
     background-color: #F5F4F0;
     width: 1120px;
@@ -20,22 +26,83 @@ body {
 
 h1 {
     font-family: "Open Sans", sans-serif; 
-    font-style: bold;
+    font-weight: bolder;
     font-size: 32px;
     color: #1b1b1b;
+    line-height: 49px;
+    margin-bottom: 40px;
+    width: 275px;
+    margin-top: 8px;
+    
 }
 
 img {
     border-radius: 28px;
+    margin-bottom: 24px;
 }
 
 section#pre {
     font-size: 16px;
     color:#E1624F;
     font-weight: bold;
+    line-height: 22px;
+    width: 183;
+    margin-bottom: 8px;
+   
 }
 
 section#subtitle {
     font-style: italic;
     text-align: center;
+    line-height: 20px;
+    padding-bottom: 40px;
 }
+
+section#ultimop {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 80px;
+    
+}
+
+section#pre2 {
+    color: #E1624F;
+    font-weight: bold;
+    margin-top: 64px;
+    line-height: 22px;
+}
+
+h2 {
+    padding-bottom: 8px;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+section#pre3 {
+    padding-bottom:64px;
+    
+}
+
+h3 {
+    font-size: 28px;
+    font-size: 28px;
+    line-height: 38px;
+    margin-top: 20px;
+}
+
+h3 img {
+    border-radius: 600px;
+}
+
+footer {
+    text-align: center;
+    line-height: 150px;
+    font-family: "Alice", serif;
+
+}
+
+footer img {
+    vertical-align: middle; /*não está ficando no meio, verificar novamente*/
+
+}
+
