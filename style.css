@@ -15,11 +15,13 @@
 body {
     background-color: #29292E;
     background-size: cover;
+    border-radius: 40px;
 }
 
  #page {
     background-color: #F5F4F0;
     width: 1120px;
+    height: 3279px;
     padding: 88px;
     margin: auto;
 
@@ -55,13 +57,14 @@ section#subtitle {
     font-style: italic;
     text-align: center;
     line-height: 20px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 section#ultimop {
     text-align: center;
     font-family: "Open Sans", sans-serif;
-    margin-top: 80px;
+    margin-top: 40px;
+   
     
 }
 
@@ -97,11 +100,13 @@ footer {
     text-align: center;
     line-height: 150px;
     font-family: "Alice", serif;
+    margin-bottom: 48px;
+    margin-top: 65px;
 }
 
 footer img {
-    vertical-align: middle; /*não está ficando no meio, verificar novamente*/
-
+   vertical-align: middle; 
+   margin-top: 20px;
 }
 
 ol {
@@ -160,4 +165,11 @@ section#history{
     padding-left: 25px;
     margin-bottom: 30px;
     list-style-type: disc;
+}
+
+section#bordas {
+    border: #d9d9d9;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 40px;
 }
