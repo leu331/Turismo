@@ -129,6 +129,7 @@ section#pre4 {
 section#historia{
     color: #0C51A7;
     padding-left: 25px;
+    
 }
 
 section#pre5 {
@@ -152,4 +153,11 @@ section#familias {
 section#orcamento {
     color: #E95E10;
     padding-left: 25px;
+}
+
+section#history{
+    color: #0C51A7;
+    padding-left: 25px;
+    margin-bottom: 30px;
+    list-style-type: disc;
 }
