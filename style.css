@@ -8,6 +8,7 @@
     font-size: 16px;
     color: #1b1b1b;
     text-align: left;
+    line-height: 22px;
 
 }
 
@@ -26,7 +27,6 @@ body {
 
 h1 {
     font-family: "Open Sans", sans-serif; 
-    font-weight: bolder;
     font-size: 32px;
     color: #1b1b1b;
     line-height: 49px;
@@ -79,8 +79,7 @@ h2 {
 }
 
 section#pre3 {
-    padding-bottom:64px;
-    
+    padding-bottom:64px;    
 }
 
 h3 {
@@ -98,7 +97,6 @@ footer {
     text-align: center;
     line-height: 150px;
     font-family: "Alice", serif;
-
 }
 
 footer img {
@@ -106,3 +104,52 @@ footer img {
 
 }
 
+ol {
+    
+}
+
+img#yongdusan {
+    margin-bottom: 20px;
+    margin-top: 48px;
+}
+
+img#beomeo {
+    margin-bottom: 20px;*/
+    margin-top: 48px;
+}
+
+img#haedong {
+    margin-bottom: 20px;*/
+}
+
+section#pre4 {
+    font-weight: bold;
+}
+
+section#historia{
+    color: #0C51A7;
+    padding-left: 25px;
+}
+
+section#pre5 {
+    font-weight: bold;
+}
+
+section#pre6 {
+    font-weight: bold;
+}
+
+section#casais {
+   color: #591B98; 
+   padding-left: 25px;
+}
+
+section#familias {
+    color: #E5245E;
+    padding-left: 25px;
+}
+
+section#orcamento {
+    color: #E95E10;
+    padding-left: 25px;
+}
